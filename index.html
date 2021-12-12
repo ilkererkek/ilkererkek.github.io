@@ -21,27 +21,28 @@
     </nav>
 
     <div class="container main text-xl">
-        <div class="header">
+        <div class="header"  onclick="scrollToContacts()">
             <div class="image">
                 <img src="./img/computer-pixelart.png" alt="Computer Science" srcset="">
             </div>
             <h1>İlker Erkek</h1>
+            <p class="text-sm ">Contact!</p>
         </div>
         <div class="content about">
            <h3>
                 About Me
            </h3>
            <p>
-               Hey! I am İlker Erkek. I'm a Computer Science student from <a href="https://www.google.com/maps/place/%C4%B0zmir">İzmir, Turkey</a> studying at <a href="https://www.deu.edu.tr/">Dokuz Eylül University</a>.
-               I am currently interested in ML Engineering and Software Engineering and looking to improve myself in these fields. I am currently work for <a href="https://pialab.com.tr/">Pialab</a>
-               as a part time junior software engineer.
+               Hey! I'm İlker Erkek. I'm a computer science student from <a href="https://www.google.com/maps/place/%C4%B0zmir">İzmir, Turkey</a> studying at <a href="https://www.deu.edu.tr/">Dokuz Eylül University</a>.
+               I am interested in ML Engineering and Software Engineering and looking to improve myself in these fields. I am currently working at <a href="https://pialab.com.tr/">Pialab</a>
+               as a part-time junior software engineer.
            </p>
         </div>
         <div class="content projects">
             <h3>
                 My Projects
             </h3>
-            <p>Some of my projects.</p>
+            <p>Some of my public projects.</p>
             <div class="project">
                 <a href="https://github.com/ilkererkek/students_performance" target="_blank">Students Performance Data Analysis</a>
                 <p>
@@ -51,27 +52,72 @@
             <div class="project">
                 <a href="https://github.com/ilkererkek/weather-app-react" target="_blank">Weather App</a>
                 <p>
-                    Tip Tracking app for iOS and Android
+                    Weather App using Weather API.
                 </p>
             </div>
             <div class="project">
                 <a href="https://github.com/ilkererkek/public-blog-app" target="_blank">Public Blog</a>
                 <p>
-                    Tip Tracking app for iOS and Android
+                    A public blog app.
                 </p>
             </div>
             <div class="project">
                 <a href="https://github.com/ilkererkek/expense-tracker-mern" target="_blank">Expense Tracker</a>
                 <p>
-                    Tip Tracking app for iOS and Android
+                    Expenses tracker using MERN stack.
                 </p>
             </div>
         </div>
-        <div class="content contacts">
+        <div class="content technologies">
+            <h3>
+                Technologies
+            </h3>
+            <p>Technologies that I've used and familiar with.</p>
+            <div class="grid techs">
+                <div class="tech">
+                    <h4>C#</h4>
+                </div>
+                <div class="tech">
+                    <h4>Javascript</h4>
+                </div>
+                
+                <div class="tech">
+                    <h4>Python</h4>
+                </div>
+                <div class="tech">
+                    <h4>.Net Core</h4>
+                </div> 
+                <div class="tech">
+                    <h4>Node.js</h4>
+                </div>
+                <div class="tech">
+                    <h4>Pandas</h4>
+                </div>
+                <div class="tech">
+                    <h4>SQL</h4>
+                </div>
+                <div class="tech">
+                    <h4>MongoDB</h4>
+                </div>
+                <div class="tech">
+                    <h4>Tensorflow</h4>
+                </div>
+                <div class="tech">
+                    <h4>React.js</h4>
+                </div>
+                <div class="tech">
+                    <h4>Firebase</h4>
+                </div>
+                <div class="tech">
+                    <h4>Pytorch</h4>
+                </div>
+            </div>
+        </div>
+        <div class="content contacts" id="contacts">
             <h3>
                 Contact Me
             </h3>
-            <p>You can find me around the internet</p>
+            <p>You can find me around the internet.</p>
             <div class="contact">
                 <a href="mailto:ilker.erke12@gmail.com" class="logo" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M32 6v20c0 1.135-.865 2-2 2h-2V9.849l-12 8.62l-12-8.62V28H2c-1.135 0-2-.865-2-2V6c0-.568.214-1.068.573-1.422A1.973 1.973 0 0 1 2 4h.667L16 13.667L29.333 4H30c.568 0 1.068.214 1.427.578c.359.354.573.854.573 1.422z" fill="currentColor"/></svg>
@@ -95,8 +141,7 @@
             </div>
         </div>
     </div>
- 
-
-   
+    
+    <script src="script.js"></script>
 </body>
 </html>

@@ -101,6 +101,7 @@ p {
     border-radius: 20px;
     border: var(--color-primary) 6px solid;
     transition: ease-in 250ms;
+    cursor: pointer;
 }
 
 
@@ -138,6 +139,24 @@ p {
     margin-right: 10px;
 }
 
+.grid{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.techs {
+    margin-top: 20px;
+}
+
+.tech{
+    text-align: center;
+    border: var(--color-bg) 1px solid;
+    background-color: var(--color-primary);
+    padding: 15px 0;
+}
+
 
 .pr-5 {
     padding-right: 30px;
@@ -150,6 +169,18 @@ p {
 
 .text-lg {
     font-size: 15px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.btn{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 15px;
 }
 
 
