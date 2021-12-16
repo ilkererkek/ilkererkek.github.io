@@ -187,5 +187,29 @@ p {
     padding: 10px 15px;
 }
 
+@media(max-width: 650px){
+    
+    .grid{
+        display: grid;
+        grid-column-gap: 30;
+        grid-row-gap: 30;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media(max-width: 475px){
+    
+    .grid{
+        display: grid;
+        grid-column-gap: 30;
+        grid-row-gap: 30;
+        grid-template-columns: 1fr;
+    }
+
+    .content{
+        margin: 30px 60px;
+    }
+}
+
+
 
 
