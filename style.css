@@ -130,6 +130,9 @@ p {
     margin: 20px 0;
 }
 
+.contact a{
+    padding: 0px 5px;
+}
 .logo{
     color: var(--color-accent);
     display: flex;
@@ -201,6 +204,9 @@ p {
     padding-top: 8px;
 }
 
+.about p{
+    margin-top: 10px;
+}
 @media(max-width: 650px){
     
     .grid{
