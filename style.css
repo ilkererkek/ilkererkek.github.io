@@ -126,6 +126,13 @@ p {
     color: gray;
 }
 
+.blog a{
+    font-size: larger;
+}
+.blog p{
+    margin: 10px 0;
+}
+
 .contact{
     margin: 20px 0;
 }
