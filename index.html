@@ -2,286 +2,294 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="İlker Erkek Personal Portfolio">
-    <title>İlker Erkek</title>
+    <meta name="description" content="İlker Erkek — Software Engineer Portfolio">
+    <title>ilkererkek@portfolio:~$</title>
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="icon" type="image/png" href="./img/favicon-32x32.png"/>
-    <link rel="stylesheet" href="style.css">
     <meta name="google-site-verification" content="snfVMpkhmwNJinZ8jPmBG9NXxf09-SbefacRSDRZwJA" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <nav class="container navbar-container">
-            <div class="navbar-left">
-                <h2>İlker Erkek</h2>
-            </div>
-            <div class="navbar-right text-lg">
-                <a href="./files/İlker Erkek Resume.pdf" class="btn btn-download" download="">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-arrow-down" class="svg-inline--fa fa-file-arrow-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M384 128h-128V0L384 128zM256 160H384v304c0 26.51-21.49 48-48 48h-288C21.49 512 0 490.5 0 464v-416C0 21.49 21.49 0 48 0H224l.0039 128C224 145.7 238.3 160 256 160zM255 295L216 334.1V232c0-13.25-10.75-24-24-24S168 218.8 168 232v102.1L128.1 295C124.3 290.3 118.2 288 112 288S99.72 290.3 95.03 295c-9.375 9.375-9.375 24.56 0 33.94l80 80c9.375 9.375 24.56 9.375 33.94 0l80-80c9.375-9.375 9.375-24.56 0-33.94S264.4 285.7 255 295z"></path></svg>
-                    Resume
-                </a>
-            </div>
-        </nav>
-    </nav>
+    <!-- CRT Overlay Effects -->
+    <div class="crt-overlay"></div>
+    <div class="scanlines"></div>
+    <div class="vignette"></div>
 
-    <div class="container main text-xl">
-        <div class="header"  onclick="scrollToContacts()">
-            <div class="image">
-                <img src="./img/computer-pixelart.png" alt="Computer Science " srcset="">
-            </div>
-            <h1>İlker Erkek</h1>
-        </div>
-        <div class="content about">
-           <h3>
-                About Me
-           </h3>
-           <p>
-               Hey! I'm İlker Erkek. a passionate computer science graduate hailing from the beautiful city of <a href="https://www.google.com/maps/place/%C4%B0zmir">İzmir, Turkey</a>, I proudly hold my degree from <a href="https://www.deu.edu.tr/">Dokuz Eylül University</a>.
-           </p>
-           <p>
-            My journey in the realm of technology has been exhilarating, fueled by my keen interest in a multitude of domains. From Data Science and Software Engineering to ML Engineering, Data Engineering, MLOps, and System Architecture, I find joy and purpose in exploring every facet of data.
-            </p>
-           <p>
-            Currently, I am working and applying my skills and knowledge at <a href="https://hubx.co/">HubX</a>
-            wearing the hats of a Backend Developer. Beyond the realm of the professional arena, 
-            I engage with coding competitions and datathons, a stimulating endeavor that sharpens my abilities and nurtures my growth.
-           </p>
-        </div>
-        <div class="content projects">
-            <h3>
-                My Projects and Work
-            </h3>
-            <p>Some of my public projects and works.</p>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/immediate-urgent-information" target="_blank">Immediate Urgent Information</a>
-                <p>
-                    A visionary mobile application project designed to swiftly inform users during urgent situations. Using the keywords in Turkish and 
-                    device's microphone, users receive the urgent information quickly.
-                    Our cutting-edge solution employs a Convolutional Neural Network, 
-                    utilizing spectrograms to detect keywords through frequency spectrum analysis. 
-                    Remarkably, the model is seamlessly hosted on the mobile device using the prowess of Tensorflow.js, ensuring efficiency and accessibility. 
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/dijkstras-maze" target="_blank">Dijkstra's Maze</a>
-                <p>
-                    An engaging Unity simulation for pathfinding algorithms that goes beyond mere visualization, gamifying the experience for enhanced interactivity.
-                    Algorithms traverse the grid, revealing their intricacies in a captivating and interactive manner. 
-                    Lets the user immerse in the dynamic and user-defined environment, gaining a deeper understanding of pathfinding concepts while enjoying the gamified elements.
-                    </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/digit-recognizer-app" target="_blank">Digit Recognizer App</a>
-                <p>
-                    Digit recognizing website powered by the Flask framework, 
-                    hosts the website seamlessly, providing an intuitive interface with a free canvas to draw which users can showcase their creativity. 
-                    The magic happens as the model steps in, utilizing augmented data to train and refine its predictive abilities. 
-                    This approach ensures the model can adeptly recognize an array of inputs from a diverse user base.
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/graphics-cpp" target="_blank">Basic Graphics Engine</a>
-                <p>
-                    A basic graphics engine, crafted in C++ better grasp computer rendering. application possesses the prowess to render ".obj" files, the fundamental file format commonly utilized in Blender software.
-                    The object gets rendered on the screen as basic triangles on the screen, showcasing the building blocks of computer-generated imagery.
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/titanic-kaggle-challange" target="_blank">Titanic Survival Prediction</a><span>(Kaggle Competition)</span>
-                <p>
-                    With data analysis and the power of machine learning, this project aimed to unravel patterns and insights from the available dataset. 
-                    Through the lens of a Linear Classifier, I sought to anticipate who survived this harrowing maritime disaster.
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/sales_analysis_pandas" target="_blank">Sales Analysis</a>
-                <p>
-                    Sales Analysis of a "Company" as a Pandas Tutorial.
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/students_performance" target="_blank">Students' Performance Analysis</a>
-                <p>
-                    Analyzed Students' Performance from three different courses depending on different features.
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/weather-app-react" target="_blank">Weather App</a>
-                <p>
-                    Weather Forecast leveraging the power of WeatherAPI and React. This application promises to keep you informed about weather conditions in real-time, 
-                    providing a seamless and intuitive user experience.
-                </p>
-            </div>
-            <div class="project">
-                <a href="https://github.com/ilkererkek/public-blog-app" target="_blank">Public Blog</a>
-                <p>
-                    A public blog platform that empowers users to express themselves through captivating images or eloquent plain text. 
-                    Built using the MERN Stack—MongoDB, Express.js, React, and Node.js—this application promises a seamless and engaging blogging experience.
-                </p>
-            </div>
-        </div>
-        <div class="content projects blogs">
-            <h3>
-                My latest blog posts
-            </h3>
-            <p>Latest blog posts about the concepts I work around.</p>
-            <div class="project blog">
-                <a href="https://medium.com/@ilkererkek/automating-the-boring-stuff-scripting-ideas-for-data-scientists-1ec5f078ca5c" target="_blank">Automating the Boring Stuff: Scripting Ideas for Data Scientists</a>
-                <p>
-                    In the data-driven landscape of today’s world, 
-                    where data not only speaks but dictates and shapes our futures, the role of a data scientists, 
-                    data analysts and data engineers has become increasingly complex and indispensable.
-                </p>
-                <br/>
-                <p>
-                    Amidst the complexity lies a mundane reality — repetitive tasks that, albeit necessary, 
-                    are time-consuming and prone to human error. This is where the magic of automation comes into play...
-                </p>
-            </div>
-            <div class="project blog">
-                <a href="https://medium.com/@ilkererkek/from-stars-to-snowflakes-deciphering-data-warehouses-and-database-design-f68184200672" target="_blank">From Stars to Snowflakes: Deciphering Data Warehouses and Database Design</a>
-                <p>
-                    In the digital age, the ability to efficiently store and manage data is paramount. 
-                    Businesses and organizations rely on sophisticated data architectures to navigate the vast expanse of information, 
-                    making informed decisions that drive success.
-                </p>
-                <br/>
-                <p>
-                    In this guide I will delve deep into the realms of OLAP (Online Analytical Processing) 
-                    and OLTP (Online Transaction Processing) systems, exploring their distinct functionalities
-                    and the pivotal roles of Star and Snowflake schema designs for these systems...
-                </p>
-            </div>
-        </div>
-        <div class="content technologies">
-            <h3>
-                Technologies
-            </h3>
-            <p>Some of the technologies that I've used in my career, school and personal projects.</p>
-            <div class="grid techs">
-                <div class="tech">
-                    <h4>C#</h4>
-                </div>
-                <div class="tech">
-                    <h4>Javascript</h4>
-                </div>
-                <div class="tech">
-                    <h4>Python</h4>
-                </div>
-                <div class="tech">
-                    <h4>C/C++</h4>
-                </div>
-                <div class="tech">
-                    <h4>SQL</h4>
-                </div>
-                <div class="tech">
-                    <h4>.Net Core</h4>
-                </div> 
-                <div class="tech">
-                    <h4>Node.js</h4>
-                </div>
-                <div class="tech">
-                    <h4>Tensorflow/Keras</h4>
-                </div>
-                <div class="tech">
-                    <h4>Scikit-learn</h4>
-                </div>
-                <div class="tech">
-                    <h4>Express.js</h4>
-                </div>
-                <div class="tech">
-                    <h4>MongoDB</h4>
-                </div>
-                <div class="tech">
-                    <h4>MS SQL Server</h4>
-                </div>
-                <div class="tech">
-                    <h4>PostgreSQL</h4>
-                </div>
-                <div class="tech">
-                    <h4>Docker</h4>
-                </div>
-                <div class="tech">
-                    <h4>Bash/PSCore</h4>
-                </div>
-                <div class="tech">
-                    <h4>Linux</h4>
-                </div>
-                <div class="tech">
-                    <h4>OpenCV/Pillow</h4>
-                </div>
-                <div class="tech">
-                    <h4>Redis</h4>
-                </div>
-            </div>
-        </div>
-        <div class="content contacts" id="contacts">
-            <h3>
-                Contact Me
-            </h3>
-            <p>You can find me around the internet.</p>
-            <div class="contact">
-                <a href="mailto:ilkererkek.cs@gmail.com" class="logo" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M32 6v20c0 1.135-.865 2-2 2h-2V9.849l-12 8.62l-12-8.62V28H2c-1.135 0-2-.865-2-2V6c0-.568.214-1.068.573-1.422A1.973 1.973 0 0 1 2 4h.667L16 13.667L29.333 4H30c.568 0 1.068.214 1.427.578c.359.354.573.854.573 1.422z" fill="currentColor"/></svg>
-                    <p>Email</p>
-                </a>
-                <p>ilkererkek.cs@gmail.com</p>
-            </div>
-            <div class="contact">
-                <a href="https://linkedin.com/in/ilker-erkek/" class="logo" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M27.26 27.271h-4.733v-7.427c0-1.771-.037-4.047-2.475-4.047c-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739V11.999h4.552v2.083h.061c.636-1.203 2.183-2.468 4.491-2.468c4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912a2.75 2.75 0 0 1-2.751-2.756a2.753 2.753 0 1 1 2.751 2.756zm2.374 17.359H4.74V12h4.749zM29.636 0H2.36C1.057 0 0 1.031 0 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307V2.307C32 1.031 30.932 0 29.631 0z" fill="currentColor"/></svg>
-                    <p>Linkedin</p>
-                </a>
-                <p>linkedin.com/in/ilker-erkek</p>
-            </div>
-            <div class="contact">
-                <a href="https://www.kaggle.com/ilkererkekcs" class="logo" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path d="M16 .396c-8.839 0-16 7.167-16 16c0 7.073 4.584 13.068 10.937 15.183c.803.151 1.093-.344 1.093-.772c0-.38-.009-1.385-.015-2.719c-4.453.964-5.391-2.151-5.391-2.151c-.729-1.844-1.781-2.339-1.781-2.339c-1.448-.989.115-.968.115-.968c1.604.109 2.448 1.645 2.448 1.645c1.427 2.448 3.744 1.74 4.661 1.328c.14-1.031.557-1.74 1.011-2.135c-3.552-.401-7.287-1.776-7.287-7.907c0-1.751.62-3.177 1.645-4.297c-.177-.401-.719-2.031.141-4.235c0 0 1.339-.427 4.4 1.641a15.436 15.436 0 0 1 4-.541c1.36.009 2.719.187 4 .541c3.043-2.068 4.381-1.641 4.381-1.641c.859 2.204.317 3.833.161 4.235c1.015 1.12 1.635 2.547 1.635 4.297c0 6.145-3.74 7.5-7.296 7.891c.556.479 1.077 1.464 1.077 2.959c0 2.14-.02 3.864-.02 4.385c0 .416.28.916 1.104.755c6.4-2.093 10.979-8.093 10.979-15.156c0-8.833-7.161-16-16-16z" fill="currentColor"/></svg>
-                    <p>Github</p>
-                </a>
-                <p>github.com/ilkererkek</p>
-            </div>
-            <div class="contact">
-                <a href="https://medium.com/@ilkererkek" class="logo" target="_blank">
-                    <svg width="800px" height="800px" viewBox="0 -55 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-                        <g>
-                            <path d="M72.2009141,1.42108547e-14 C112.076502,1.42108547e-14 144.399375,32.5485469 144.399375,72.6964154 C144.399375,112.844284 112.074049,145.390378 72.2009141,145.390378 C32.327779,145.390378 0,112.844284 0,72.6964154 C0,32.5485469 32.325326,1.42108547e-14 72.2009141,1.42108547e-14 Z M187.500628,4.25836743 C207.438422,4.25836743 223.601085,34.8960455 223.601085,72.6964154 L223.603538,72.6964154 C223.603538,110.486973 207.440875,141.134463 187.503081,141.134463 C167.565287,141.134463 151.402624,110.486973 151.402624,72.6964154 C151.402624,34.9058574 167.562834,4.25836743 187.500628,4.25836743 Z M243.303393,11.3867175 C250.314,11.3867175 256,38.835526 256,72.6964154 C256,106.547493 250.316453,134.006113 243.303393,134.006113 C236.290333,134.006113 230.609239,106.554852 230.609239,72.6964154 C230.609239,38.837979 236.292786,11.3867175 243.303393,11.3867175 Z" fill="#000000">
-                    
-                    </path>
-                        </g>
-                    </svg><p>Medium</p>
-                </a>
-                <p>medium.com/@ilkererkek</p>
-            </div>
-            <div class="contact">
-                <a href="https://www.kaggle.com/ilkererkekcs" class="logo" target="_blank">
-                    <svg height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="comp_x5F_189-kaggle"><g><g><g><path d="M385.708,472.847L254.742,310.082l125.578-121.534c2.334-2.426,1.526-9.433-4.761-9.433h-62.16      c-3.145,0-6.288,1.618-9.433,4.761L185.128,303.973V36.369c0-4.491-2.247-6.737-6.738-6.737h-46.618      c-4.492,0-6.737,2.246-6.737,6.737V475.54c0,4.491,2.246,6.738,6.737,6.738h46.618c4.491,0,6.738-2.247,6.738-6.738v-97.91      l27.666-26.317l99.257,126.294c2.695,3.145,5.839,4.762,9.432,4.762h60.095c3.143,0,4.939-0.899,5.389-2.696L385.708,472.847z" style="fill:#20BEFF;"/><path d="M381.577,492.368h-60.095c-4.539,0-11.177-1.432-17.024-8.254      c-0.092-0.107-0.182-0.217-0.27-0.328l-92.466-117.653l-16.595,15.786v93.621c0,10.012-6.727,16.738-16.738,16.738h-46.618      c-10.011,0-16.737-6.727-16.737-16.738V36.369c0-10.011,6.726-16.737,16.737-16.737h46.618c10.012,0,16.738,6.726,16.738,16.737      v243.28l101.729-102.807c5.143-5.14,10.694-7.727,16.541-7.727h62.16c6.554,0,12.166,3.622,14.647,9.453      c2.493,5.858,1.416,12.656-2.681,16.914c-0.082,0.085-0.166,0.169-0.252,0.252L268.253,310.922l125.246,155.656      c1.04,1.293,1.742,2.824,2.043,4.456l1.258,6.825c0.26,1.406,0.214,2.852-0.133,4.238      C396.064,484.507,393.196,492.368,381.577,492.368z M319.76,471.231c1.01,1.137,1.506,1.137,1.723,1.137h51.005L246.951,316.351      c-3.24-4.026-2.878-9.859,0.836-13.454l117.566-113.781h-51.872c-0.278,0.084-1.15,0.538-2.446,1.833L192.236,311.007      c-2.852,2.881-7.162,3.757-10.911,2.215c-3.75-1.542-6.197-5.194-6.197-9.249V39.632h-40.094v432.646h40.094V377.63      c0-2.739,1.124-5.357,3.108-7.245l27.666-26.317c2.04-1.941,4.796-2.937,7.613-2.729c2.809,0.202,5.401,1.58,7.142,3.794      L319.76,471.231z" style="fill:#188FBF;"/></g></g></g></g><g id="Layer_1"/></svg>
-                    <p>Kaggle</p>
-                </a>
-                <p>kaggle.com/ilkererkekcs</p>
-            </div>
-            <div class="contact">
-                <a href="https://leetcode.com/ilkererkek/" class="logo" target="_blank">
-                    <svg width="94px" height="111px" viewBox="0 0 94 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <title>1_black</title>
-                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g id="branding_-resource" transform="translate(-2093.000000, -290.000000)">
-                                <g id="1_black" transform="translate(2093.000000, 290.000000)">
-                                    <path d="M67.5068339,83.0664138 C70.0005384,80.5763786 74.0371402,80.5828822 76.5228362,83.0809398 C79.0085322,85.5789975 79.00204,89.6226456 76.5083355,92.1126808 L65.4351451,103.169577 C55.2192332,113.370744 38.5604663,113.518673 28.1722578,103.513204 C28.112217,103.455678 23.486583,98.9201326 8.22702585,83.9570195 C-1.92478479,74.0028895 -2.93614945,58.0748736 6.61697549,47.8463644 L24.4286944,28.7745461 C33.9100043,18.6218594 51.3874487,17.5122246 62.2279907,26.2789232 L78.4052912,39.3620235 C81.1448956,41.5776292 81.5728103,45.5984975 79.3610655,48.3428842 C77.1493207,51.0872709 73.1354592,51.5159327 70.3958548,49.300327 L54.2186634,36.2173149 C48.5492813,31.6325105 38.631911,32.2621597 33.7398535,37.5006265 L15.9279056,56.5726899 C11.2772073,61.552182 11.7865613,69.5740156 17.1461283,74.8292186 C28.3515339,85.8169393 36.9874071,94.2846214 36.9973988,94.294225 C42.3981571,99.4959838 51.130862,99.418438 56.43358,94.1233737 L67.5068339,83.0664138 Z" id="path_3" fill="#FFA116" fill-rule="nonzero"></path>
-                                    <path d="M40.6069914,72.0014117 C37.086019,72.0014117 34.2317068,69.142117 34.2317068,65.6149982 C34.2317068,62.0878794 37.086019,59.2285847 40.6069914,59.2285847 L87.6247154,59.2285847 C91.1456879,59.2285847 94,62.0878794 94,65.6149982 C94,69.142117 91.1456879,72.0014117 87.6247154,72.0014117 L40.6069914,72.0014117 Z" id="path_2" fill="#B3B3B3"></path>
-                                    <path d="M49.4124315,2.02335002 C51.8178981,-0.552320454 55.852269,-0.686893945 58.4234511,1.72277172 C60.9946333,4.13243738 61.1289722,8.17385083 58.7235056,10.7495213 L15.9282277,56.5728697 C11.2773659,61.551984 11.7867168,69.5737689 17.1459309,74.8291832 L36.9094236,94.2091099 C39.4255514,96.6764051 39.4686234,100.719828 37.0056277,103.240348 C34.5426319,105.760868 30.5062548,105.804016 27.990127,103.33672 L8.22654289,83.9567041 C-1.92467414,74.0021005 -2.93603527,58.0741402 6.61751533,47.846311 L49.4124315,2.02335002 Z" id="path_1" fill="#FFFFFF"></path>
-                                </g>
-                            </g>
-                        </g>
-                    </svg><p>LeetCode</p>
-                </a>
-                <p>İlker Erkek</p>
-            </div>
+    <!-- Boot Screen -->
+    <div id="boot-screen" class="boot-screen">
+        <div class="boot-text">
+            <p class="boot-line" style="--delay: 0">BIOS v3.14 — İlker Erkek Systems Inc.</p>
+            <p class="boot-line" style="--delay: 1">Memory Test... 65536K OK</p>
+            <p class="boot-line" style="--delay: 2">Detecting peripherals... [OK]</p>
+            <p class="boot-line" style="--delay: 3">Loading portfolio.sys... <span class="blink">█</span></p>
         </div>
     </div>
-    
+
+    <!-- Main Terminal -->
+    <div id="terminal" class="terminal hidden">
+        <!-- Top Bar -->
+        <header class="terminal-header">
+            <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+            </div>
+            <div class="terminal-title">ilkererkek@izmir — bash — 80x24</div>
+            <a href="./files/İlker Erkek Resume.pdf" class="resume-link" download>
+                [↓ resume.pdf]
+            </a>
+        </header>
+
+        <!-- Terminal Body -->
+        <main class="terminal-body">
+
+            <!-- MOTD / ASCII Header -->
+            <section class="section motd fade-section">
+                <pre class="ascii-art">
+ ___  _  _                ____       _         _    
+|_ _|| || | __ ___  _ __ | ___|_ __ | | __ ___| | __
+ | | | || |/ // _ \| '__||  _| | '__|| |/ // _ \ |/ /
+ | | |  _  <|  __/| |   | |___| |   |   <|  __/   < 
+|___||_| \_\ \___||_|   |_____|_|   |_|\_\\___||_|\_\
+                </pre>
+                <p class="system-msg">Last login: Today from izmir.local</p>
+                <p class="system-msg">System: Dokuz Eylül University CS '23 | HubX Engineering</p>
+                <p class="system-msg dim">Type 'help' for available commands. Or just scroll down.</p>
+            </section>
+
+            <!-- About -->
+            <section class="section fade-section">
+                <div class="prompt">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~/about</span><span class="dollar">$</span>
+                    <span class="command">cat about.md</span>
+                </div>
+                <div class="output">
+                    <p>Hey! I'm <span class="highlight">İlker Erkek</span> — a Software Engineer from the beautiful city of <a href="https://www.google.com/maps/place/%C4%B0zmir" target="_blank">İzmir, Turkey</a>.</p>
+                    <br>
+                    <p>I hold my CS degree from <a href="https://www.deu.edu.tr/" target="_blank">Dokuz Eylül University</a> and currently work at <a href="https://hubx.co/" target="_blank">HubX</a>, where I build high-throughput backend systems and AI-powered products on <span class="highlight">GCP</span> and <span class="highlight">Kubernetes</span>.</p>
+                    <br>
+                    <p>My playground spans across backend architecture, distributed systems, generative AI pipelines, and data engineering. I've been coding since high school — and I still get the same rush every time something compiles on the first try <span class="dim">(rare, but magical)</span>.</p>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section class="section fade-section">
+                <div class="prompt">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~/work</span><span class="dollar">$</span>
+                    <span class="command">cat experience.json | jq</span>
+                </div>
+                <div class="output">
+                    <div class="json-block">
+                        <p class="json-brace">{</p>
+                        <p class="json-line"><span class="json-key">"role"</span>: <span class="json-string">"Software Engineer"</span>,</p>
+                        <p class="json-line"><span class="json-key">"company"</span>: <span class="json-string">"<a href="https://hubx.co/" target="_blank">HubX</a>"</span>,</p>
+                        <p class="json-line"><span class="json-key">"period"</span>: <span class="json-string">"2023 — present"</span>,</p>
+                        <p class="json-line"><span class="json-key">"location"</span>: <span class="json-string">"İzmir, Turkey"</span>,</p>
+                        <p class="json-line"><span class="json-key">"focus"</span>: [</p>
+                        <p class="json-array"><span class="json-string">"Event-driven microservices (Pub/Sub, Eventarc, Cloud Run)"</span>,</p>
+                        <p class="json-array"><span class="json-string">"Kubernetes workloads for GPU-heavy ML pipelines"</span>,</p>
+                        <p class="json-array"><span class="json-string">"AI media generation pipelines (LLMs + video/audio)"</span>,</p>
+                        <p class="json-array"><span class="json-string">"High-scale observability & cost optimization"</span></p>
+                        <p class="json-line">],</p>
+                        <p class="json-line"><span class="json-key">"stack"</span>: <span class="json-string">"Node.js, TypeScript, GCP, K8s, MongoDB, Redis, BigQuery"</span></p>
+                        <p class="json-brace">}</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="section fade-section">
+                <div class="prompt">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~/projects</span><span class="dollar">$</span>
+                    <span class="command">ls -la --sort=stars</span>
+                </div>
+                <div class="output">
+                    <table class="file-table">
+                        <thead>
+                            <tr>
+                                <th>permissions</th>
+                                <th>name</th>
+                                <th>description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="perm">drwxr-xr-x</td>
+                                <td><a href="https://github.com/ilkererkek/immediate-urgent-information" target="_blank">urgent-info/</a></td>
+                                <td class="desc">CNN-powered mobile app for real-time keyword detection using spectrograms + TF.js</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">drwxr-xr-x</td>
+                                <td><a href="https://github.com/ilkererkek/dijkstras-maze" target="_blank">dijkstras-maze/</a></td>
+                                <td class="desc">Unity simulation gamifying pathfinding algorithms with interactive grid environments</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">drwxr-xr-x</td>
+                                <td><a href="https://github.com/ilkererkek/digit-recognizer-app" target="_blank">digit-recognizer/</a></td>
+                                <td class="desc">Flask web app with free-draw canvas + ML model trained on augmented data</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">drwxr-xr-x</td>
+                                <td><a href="https://github.com/ilkererkek/graphics-cpp" target="_blank">graphics-engine/</a></td>
+                                <td class="desc">C++ renderer for .obj files — triangle rasterization from scratch</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">drwxr-xr-x</td>
+                                <td><a href="https://github.com/ilkererkek/weather-app-react" target="_blank">weather-app/</a></td>
+                                <td class="desc">React weather forecast app powered by WeatherAPI</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">drwxr-xr-x</td>
+                                <td><a href="https://github.com/ilkererkek/public-blog-app" target="_blank">public-blog/</a></td>
+                                <td class="desc">Full MERN stack blog platform with image uploads</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">-rw-r--r--</td>
+                                <td><a href="https://github.com/ilkererkek/titanic-kaggle-challange" target="_blank">titanic-ml.py</a></td>
+                                <td class="desc">Kaggle competition — survival prediction via linear classifier</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">-rw-r--r--</td>
+                                <td><a href="https://github.com/ilkererkek/sales_analysis_pandas" target="_blank">sales-analysis.ipynb</a></td>
+                                <td class="desc">Pandas-powered sales data analysis tutorial</td>
+                            </tr>
+                            <tr>
+                                <td class="perm">-rw-r--r--</td>
+                                <td><a href="https://github.com/ilkererkek/students_performance" target="_blank">student-perf.ipynb</a></td>
+                                <td class="desc">Multi-course student performance analysis</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Blog Posts -->
+            <section class="section fade-section">
+                <div class="prompt">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~/blog</span><span class="dollar">$</span>
+                    <span class="command">tail -n 2 posts.log</span>
+                </div>
+                <div class="output blog-output">
+                    <div class="blog-entry">
+                        <span class="log-date">[2024-01-xx]</span>
+                        <a href="https://medium.com/@ilkererkek/automating-the-boring-stuff-scripting-ideas-for-data-scientists-1ec5f078ca5c" target="_blank">Automating the Boring Stuff: Scripting Ideas for Data Scientists</a>
+                        <p class="blog-desc">Practical automation scripts for the repetitive tasks that eat your time — from data pipelines to report generation.</p>
+                    </div>
+                    <div class="blog-entry">
+                        <span class="log-date">[2024-01-xx]</span>
+                        <a href="https://medium.com/@ilkererkek/from-stars-to-snowflakes-deciphering-data-warehouses-and-database-design-f68184200672" target="_blank">From Stars to Snowflakes: Data Warehouses & Database Design</a>
+                        <p class="blog-desc">Deep dive into OLAP vs OLTP, Star and Snowflake schemas, and when to use which.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tech Stack -->
+            <section class="section fade-section">
+                <div class="prompt">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~/stack</span><span class="dollar">$</span>
+                    <span class="command">neofetch --tech-only</span>
+                </div>
+                <div class="output">
+                    <div class="neofetch">
+                        <div class="neofetch-ascii">
+                            <pre>
+    .--.
+   |o_o |
+   |:_/ |
+  //   \ \
+ (|     | )
+/'\_   _/`\
+\___)=(___/
+                            </pre>
+                        </div>
+                        <div class="neofetch-info">
+                            <p><span class="nf-key">Languages</span><span class="nf-sep">:</span> TypeScript, JavaScript, Python, C/C++, C#, SQL</p>
+                            <p><span class="nf-key">Backend</span><span class="nf-sep">:</span> Node.js, Express.js, .NET Core</p>
+                            <p><span class="nf-key">Cloud</span><span class="nf-sep">:</span> GCP, Kubernetes (GKE), Cloud Run, Pub/Sub</p>
+                            <p><span class="nf-key">DevOps</span><span class="nf-sep">:</span> Docker, Terraform, GitHub Actions, CircleCI</p>
+                            <p><span class="nf-key">AI/ML</span><span class="nf-sep">:</span> TensorFlow/Keras, Scikit-learn, OpenCV, LLM APIs</p>
+                            <p><span class="nf-key">Databases</span><span class="nf-sep">:</span> MongoDB, PostgreSQL, Redis, BigQuery, MS SQL</p>
+                            <p><span class="nf-key">Frontend</span><span class="nf-sep">:</span> React</p>
+                            <p><span class="nf-key">Tools</span><span class="nf-sep">:</span> Linux, Bash, Grafana, Git</p>
+                            <div class="color-blocks">
+                                <span style="background:#041C32"></span>
+                                <span style="background:#cc241d"></span>
+                                <span style="background:#98971a"></span>
+                                <span style="background:#d79921"></span>
+                                <span style="background:#458588"></span>
+                                <span style="background:#b16286"></span>
+                                <span style="background:#689d6a"></span>
+                                <span style="background:#a89984"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="section fade-section">
+                <div class="prompt">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~/contact</span><span class="dollar">$</span>
+                    <span class="command">cat links.conf</span>
+                </div>
+                <div class="output">
+                    <div class="contact-grid">
+                        <a href="mailto:ilkererkek.cs@gmail.com" class="contact-item" target="_blank">
+                            <span class="contact-icon">✉</span>
+                            <span class="contact-label">email</span>
+                            <span class="contact-value">ilkererkek.cs@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/ilker-erkek/" class="contact-item" target="_blank">
+                            <span class="contact-icon">in</span>
+                            <span class="contact-label">linkedin</span>
+                            <span class="contact-value">ilker-erkek</span>
+                        </a>
+                        <a href="https://github.com/ilkererkek" class="contact-item" target="_blank">
+                            <span class="contact-icon">gh</span>
+                            <span class="contact-label">github</span>
+                            <span class="contact-value">ilkererkek</span>
+                        </a>
+                        <a href="https://medium.com/@ilkererkek" class="contact-item" target="_blank">
+                            <span class="contact-icon">M</span>
+                            <span class="contact-label">medium</span>
+                            <span class="contact-value">@ilkererkek</span>
+                        </a>
+                        <a href="https://www.kaggle.com/ilkererkekcs" class="contact-item" target="_blank">
+                            <span class="contact-icon">K</span>
+                            <span class="contact-label">kaggle</span>
+                            <span class="contact-value">ilkererkekcs</span>
+                        </a>
+                        <a href="https://leetcode.com/ilkererkek/" class="contact-item" target="_blank">
+                            <span class="contact-icon">LC</span>
+                            <span class="contact-label">leetcode</span>
+                            <span class="contact-value">ilkererkek</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <section class="section fade-section footer-section">
+                <div class="prompt">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+                    <span class="command">echo "Thanks for visiting"</span>
+                </div>
+                <div class="output">
+                    <p>Thanks for visiting</p>
+                    <p class="dim" style="margin-top: 8px;">Built with raw HTML/CSS/JS. No frameworks were harmed in the making of this portfolio.</p>
+                    <p class="dim">© 2024 İlker Erkek — İzmir, Turkey</p>
+                </div>
+                <div class="prompt" style="margin-top: 24px;">
+                    <span class="user">ilkererkek</span><span class="at">@</span><span class="host">portfolio</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+                    <span class="cursor blink">█</span>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
     <script src="script.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L2VTFT8GWV"></script>
@@ -289,7 +297,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-L2VTFT8GWV');
     </script>
 </body>
